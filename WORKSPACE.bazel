@@ -1,0 +1,9 @@
+load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
+
+http_archive(
+    name = "svgpp",
+    urls = ["https://github.com/svgpp/svgpp/archive/refs/tags/v1.3.1.tar.gz"],
+    sha256 = "",
+    strip_prefix = "svgpp-1.3.1",
+    build_file = "@//third_party/svgpp:BUILD.bazel",
+)
