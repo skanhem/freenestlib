@@ -4,6 +4,6 @@ cc_binary(
         "minkowski.cc",
     ],
     deps = [
-        "@boost//:polygon",
+        "@boost.polygon",
     ]
 )
