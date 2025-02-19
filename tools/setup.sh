@@ -22,12 +22,6 @@ if [ $(arch) != "x86_64" ]; then
   exit 1
 fi
 
-if [ $(uname -s) != "Linux" ]; then
-	echo "This script only supports Linux" >&2
-	exit 1
-fi
-
-
 ensure_command_exists apt
 
 sudo apt install -y wget
