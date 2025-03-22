@@ -5,5 +5,5 @@ cc_binary(
     ],
     deps = [
         "@boost.polygon",
-    ]
+    ],
 )
