@@ -4,6 +4,6 @@ cc_binary(
         "svgpp.cc",
     ],
     deps = [
-        "@svgpp//:svgpp",
+        "@svgpp",
     ]
 )
